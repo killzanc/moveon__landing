@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jost-v6-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/jost-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+ @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    src:url('../fonts/jost-v6-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/jost-v6-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    src:  url('../fonts/jost-v6-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/jost-v6-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Jost';
+}
+.container{
+    max-width: 1450px;
+}
+.header__logo{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 124%;
+    color: #FFFFFF;
+}
+.header__wrapper{
+    background-image: url(img/Path\ 194.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    min-height: 1075px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+}
+
+.list__item{
+    margin-right: 22px; 
+}
+.list__item-link:hover{
+    color: #D6CEE1;
+}
+.list__item-link{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 124%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+/* hero */
+.hero__title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 124%;
+    color: #FFFFFF;
+    margin-top: 153px;
+    width: 599px;
+    margin-right: 260px;
+}
+.hero__text{
+    width: 559px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 124%;
+    color: #FFFFFF;
+}
+.btn{
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 124%;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    margin-top: 44px;
+    margin-right: 21px;
+}
+
+/* section */
+
+
+.section__title{
+    font-weight: 500;
+    line-height: 66px;
+    font-size: 46px;
+    color: #000000;    
+}
+.section__text{
+    width: 437px;
+    font-weight: normal;
+    line-height: 124%;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #ABABAB;
+    font-size: 18px;
+    margin-bottom: 101px;
+}
+.section__item__text{
+    width: 321px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #B0B0B0;
+    line-height: 124%;
+    text-align: right;
+}
+.section__item-heading{
+    width: 321px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 124%;
+    text-align: right;
+    color: #000000;
+
+}
+.section__list{
+    list-style-type: none;
+    flex-direction: column;
+}
+.section__item:nth-child(2){
+    margin-top: 174px;
+    margin-bottom: 174px;
+
+}
+.item__right_col{
+    margin-left: 200px;
+}
+.section__row{
+    margin-bottom: 213px;
+}
+.footer{
+    background-image: url(img/footer\ path.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 184px 249px 39px 165px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer__left{
+    width: 518px;
+}
+
+.footer__left-head{
+    font-family: Jost;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 124%;
+    color: #FFFFFF;
+}
+.footer__left-info{
+    font-size: 18px;
+    line-height: 124%;
+    color: #FFFFFF;
+}
+
+.footer__mid{
+    margin: 0 218px;
+}
+.footer__mid-info{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.footer__mid-head{
+    color: white;
+}
+.footer__right{
+    width: 249px;
+}
+.footer__right-list{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__right-head{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 124%;
+    color: #FFFFFF;
+}
+.footer__line{ 
+    margin-top: 84px;
+    margin-bottom: 48px;
+    width: 1590px;
+    height: 1px;
+    background: #FFFFFF;
+}
+    .footer__cr{
+    font-size: 20px;
+    line-height: 124%;
+    color: #FFFFFF;
+}
